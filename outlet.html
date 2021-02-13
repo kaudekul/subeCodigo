@@ -1,0 +1,105 @@
+<!DOCTYPE html><!--DECLARACION TIPO DOCUMENTO-->
+
+<html lang="es"><!--ELEMENTO RAIZ ENVOLVENTE CÓDIGO CON ATRIBUTO LANG-->
+
+<head><!--SET INFORMACIÓN GENERAL Y ARCHIVOS EXTERNOS-->
+	<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /><!--ETIQUETAS META PARA MOTORES BÚSQUEDA-->
+	<meta name="description" content="Ejemplo de HTML5"/>
+	<meta name="keywords" content="HTML 5, CSS3, Javascript"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Ejercicio con ASIDE</title><!--TÍTULO MOSTRADO EN LA VENTANA NAVEGADOR-->
+	<link rel="stylesheet" href="miEstilo.css"/><!--INCORPORAR ARCHIVOS ESTILOS CSS o JAVASCRIPT-->
+</head>
+<body><!--PARTE VISIBLE DEL DOCUMENTO-->
+<header id="cabeceraHeader">
+		<img src="cabecera.png" alt="logo COMPREM OR">
+</header>
+
+
+
+<nav id="navegador">
+	<ul id="navegadorUl">
+			<a href="main.html"><li>INICI</li></a>
+			<a href="funcionament.html"><li>FUNCIONAMENT</li></a>
+			<a href="cotitzacio.html"><li>COTITZACIÓ</li></a>
+			<a href="localitzacio.html"><li>LOCALITZACIÓ</li></a>
+			<a href="outlet.html"><li>JOYAS DE OUTLET</li></a>
+	</ul>
+</nav>
+<aside>
+	<header>
+	<hgroup>	
+	<h2> CONTACTO</h2>
+	</header>
+	<h3 class="nombre">TOT OR - CREDI XPRESS</h3>
+	<p>Calle Cervantes, 138</p>
+	<p>08221 - Terrassa</p>
+	<p>(Barcelona)</p>
+	<br/>
+	<p >Teléfono</p>
+	<h3 class="telefono">93 733 69 96</h3>
+	<br/>
+	<p id="emailP">E-mail:</p>
+	<a href="mailto:info@totorinversions.com?subject="Email desde nuestra Web" class="aEmail"><h3>info@totorinversions.com</h3></a>
+	<header>
+	<h2> COTIZACIÓN ORO</h2>
+	</header>
+	<img src="t24_au_en_eukg_2.gif" alt="cotización oro" class="center">
+</aside>
+
+
+<section>
+<header>
+<hgroup>
+<h2 class="outletH2">En Tot Or disponemos de varias joyas de outlet a precios increibles.</h2>
+<h2 class="outletH2">Visitanos y echale un ojo a nuestro escaparate!</h2>
+</hgroup>
+</header>
+	<article>
+	<header class="outletHeader">
+	Reloj Maurice Lacroix:
+	</header>
+	<picture class="leftImage">
+  	<source media="(max-width:300px;)" srcset="article1_1_med.jpg">
+  	<source media="(max-width:300px;)" srcset="article1_1.jpg">
+ 	 <img src="article1_1.jpg" alt="Reloj Maurice Lacroix" style="width:auto;">
+	</picture>
+	<picture class="rightImage">
+  	<source media="(max-width:300px;)" srcset="article1_2_med.jpg">
+  	<source media="(max-width:300px;)" srcset="article1_2.jpg">
+ 	 <img src="article1_2.jpg" alt="Reloj Maurice Lacroix" style="width:auto;">
+	</picture>
+	</article>
+	<article>
+	<header class="outletHeader">
+	Colgante con brillantes:
+	</header>
+	<h5 class="outletH5">Fantastico colgante con el relieve de un caballo y diamantes incrustados.</h5>
+	<picture class="centerImage">
+  	<source media="(max-width:300px;)" srcset="article2_med.jpg">
+  	<source media="(max-width:300px;)" srcset="article2.jpg">
+ 	 <img src="article2.jpg" alt="Colgante Oro/Brillantes Pegaso" style="width:auto;">
+	</picture>
+	</article>
+	<article>
+	<header class="outletHeader">
+
+	Sello Indio:
+	
+	<h5 class="outletH5">Sello del indio con 16 diamantes alrededor</h5>
+	</header>
+	<picture class="centerImage">
+	<source media="(max-width:300px;)" srcset="article3_med.jpg">
+  	<source media="(max-width:300px;)" srcset="article3.jpg">
+ 	<img src="article3.jpg" alt="Sello Indio Americano Diamantes" style="width:auto;">
+	</picture>
+	</article>
+</section>
+<footer id="pie">	
+<a href="proteccionDatos.html"><div>
+Protección de datos
+</div><a>
+</body>
+</html>
