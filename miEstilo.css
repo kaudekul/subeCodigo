@@ -1,6 +1,6 @@
 *{
 margin:0;
-padding;0;
+padding:0;
 }
 
 /*CSS RESPONSIVE*/
@@ -80,7 +80,7 @@ margin-top:10px;
 }
 aside p{
 font: 13px Arial, Helvetica sans-serif;
-color:#black;
+color:black;
 }
 aside header{
 margin-bottom:12px;
@@ -109,7 +109,7 @@ color:black;
 margin:0px 0 0 10px;
 }
 .aEmail{
-decoration:none;
+text-decoration:none;
 font: 10px verdana, tahoma, sans-serif;
 color:navy;
 padding: 0 0 6px 0;
@@ -134,7 +134,7 @@ margin-top:1px;
 /*CSS PAGINA DOS*/
 #kilatajes table{
 width:99%;
-padding:10px auto 10px auto;
+padding:10px 0 10px 0;
 font:15px Arial, Helvetica, sans-serif;
 }
 #kilatajes td:first-child{
@@ -154,17 +154,17 @@ background-color:#e0e0d5;
 
 section hgroup h1{
 font: 22px MiNuevaFuenteCondMed, verdana, sans-serif;
-letter-spacing: 3.5 em;
+letter-spacing: 3px;
 color:#20331f;
 margin:6px 0 0 1px;
-text-shadow: rgba(155,155,155) 1px 1px 1px;
+text-shadow: green 1px 1px 1px;
 }
 section hgroup h2{
 font: 26px MiNuevaFuenteCondMed, verdana, sans-serif;
-letter-spacing: 3.5 em;
-color:#20331f
+letter-spacing: 3px;
+color:#20331f;
 margin:6px 0 0 1px;
-text-shadow: rgba(155,155,155) 1px 1px 1px;
+text-shadow: green 1px 1px 1px;
 }
 figure{
 float:right;
@@ -175,12 +175,12 @@ margin-left:10px;
 padding: 10px 0 0 0;
 }
 
-h2.h23{
-font: 22px MiNuevaFuenteCondMed, verdana, sans-serif;
-letter-spacing: 0.4 em;
-color:#20331f
-text-shadow: rgba(155,155,155,0.5) 1px 1px 2px;
-clear:both;
+h2.h23 {
+	font: 22px MiNuevaFuenteCondMed, verdana, sans-serif;
+	letter-spacing: 4px;
+	color: #20331f;
+	text-shadow: 1px 1px 2px #b2edb3;
+	clear: both;
 }
 .dibujo{
 float:left;
@@ -204,7 +204,7 @@ margin:10px 0 0 0;
 }
 .captionRow{
 font: 18px MiNuevaFuenteCondMed, verdana, sans-serif;
-letter-spacing: 0.4 em;
+letter-spacing: 4px;
 padding:5px;
 text-align:left;
 background-color:#e3f5ff;
@@ -214,17 +214,16 @@ border-right:double;
 }
 .theader{
 font: 16px MiNuevaFuenteCondMed, verdana, sans-serif;
-letter-spacing: 0.4 em;
+letter-spacing: 4px;
 text-align:center;
 background-color:gold;
-border:
 border-top:double;
 }
 .tbody{
 border:thin;
 padding:5px;
 font: 14px Arial, Helvetica, sans-serif;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:center;
 background-color:#808080;
 border-bottom:white double;
@@ -232,8 +231,8 @@ border-left:white double;
 }
 .tbodyStrong{
 padding:5px;
-font: 12px Arial, Helvetica; sans-serif;
-letter-spacing: 20%;
+font: 12px Arial, Helvetica, sans-serif;
+letter-spacing: 5px;
 text-align:center;
 background-color:#e3f5ff;
 }
@@ -245,7 +244,7 @@ border-top:double;
 font: 15px Arial, Helvetica, sans-serif;
 font-weight:bold;
 padding:5px;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:center;
 background-color:#d2d4d6;
 }
@@ -257,7 +256,7 @@ border-top:double;
 font: 15px Arial, Helvetica, sans-serif;
 font-weight:bold;
 padding:5px;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:right;
 background-color:white;
 }
@@ -265,22 +264,22 @@ background-color:white;
 font: 18px Arial, Helvetica, sans-serif;
 font-weight:lighter;
 padding:0px 0 0 25px;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:left;
 background-color:white;
 }
 .tfooter{
 padding:5px;
 font: 16px Arial, Helvetica, sans-serif;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:left;
 color:#660033;
 background-color:#e3f5ff;
 }
 .tfooter strong{
-padding:5p 0;
+padding:5px 0;
 font: 19px Arial, Helvetica, sans-serif;
-letter-spacing: 2.5 em;
+letter-spacing: 2px;
 text-align:left;
 color: #ff4da6;
 background-color:#e3f5ff;
